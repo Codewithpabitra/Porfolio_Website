@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  color: #fff;
+}
+
+.app-container {
+  background-color: #111;
+  color: #fff;
+  font-family:system-ui,'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+
+
+
+
+
+

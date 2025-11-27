@@ -1,9 +1,11 @@
 import React from 'react'
+import './App.css'
+import Home from './sections/Home/Home'
 
 const App = () => {
   return (
-    <div>
-      Hello from portfolio
+    <div className='app-container'>
+      <Home />
     </div>
   )
 }
