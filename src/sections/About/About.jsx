@@ -1,4 +1,5 @@
 import React from 'react'
+import './About.css'
 
 const About = () => {
 
@@ -35,23 +36,26 @@ const About = () => {
 
   return (
     <div className='about-page'>
-      <div className="introduction">
-        <div className="left-part">
 
-        </div>
-        <div className="right-part">
+        <h3>About Me<div className="underline"></div></h3>
+        
+      <div className="upperpart">
+          <div className="logo-img">
+            
+          </div>
+          <div className="right-part">
             <h4>Codewithpabitra</h4>
             <p>A passionate software engineer | 1.5+ years in Coding</p>
             <div className="skills-langauges">
               {techStacks.map((item,index) => (
-                <div key={index}>{item}</div>
+                <div className='skill' key={index}>{item}</div>
               ))}
             </div>
 
         </div>
       </div>
 
-      <div className="introduction-after">
+      {/* <div className="introduction-after">
         <h4>Languages I Know</h4>
         <div className="langauges">
           {languages.map((item, index) => (
@@ -61,7 +65,7 @@ const About = () => {
               </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

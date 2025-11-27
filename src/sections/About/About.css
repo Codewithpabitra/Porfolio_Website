@@ -1,7 +1,88 @@
 .about-page {
     width: 100%;
-    max-width: 100vh;
-    width: auto;
-    padding: 50px 0;
+    max-height: 100vh;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
 }
 
+.about-page .upperpart {
+    display: flex;
+    width: 100%;
+    padding: 0 70px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+    gap: 6vw;
+}
+
+.about-page .upperpart .logo-img {
+    width: 400px;
+    height: 400px;
+    background-color: teal;
+    border-radius: 50%;
+    box-shadow: 0 0 20px teal;
+
+
+}
+
+
+.about-page  h3 {
+    font-size: 1.5rem;
+    display:inline-block;
+    text-align: center;
+    position: relative;
+    text-shadow: 0 0 10px;
+    
+}
+
+.about-page h3 .underline {
+    width: 90px;
+    height: 3px;
+    background:linear-gradient(267deg, teal, blue);
+    position: absolute;
+    bottom: -20%;
+    right: 45%;
+    box-shadow: 0 0 10px teal;
+}
+
+.right-part {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 50px 20px;
+}
+
+.skills-langauges {
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.skill {
+    padding: 3px 10px;
+    background-color: #2c2b2b;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+}
+
+.right-part p {
+    color: #747171;
+}
