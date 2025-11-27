@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  letter-spacing:0.05cm;
+  word-spacing: 0.05cm;
 }
 
 body, html {
@@ -14,7 +16,8 @@ body, html {
 .app-container {
   background-color: #111;
   color: #fff;
-  font-family:system-ui,'Open Sans', 'Helvetica Neue', sans-serif
+  font-family:system-ui,'Open Sans', 'Helvetica Neue', sans-serif;
+  
 }
 
 
