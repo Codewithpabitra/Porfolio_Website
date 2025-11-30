@@ -96,6 +96,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
+    font-style: italic;
 }
 
 .introduction p {
@@ -121,6 +122,10 @@
     background: linear-gradient(268deg, teal,blue);
     cursor: pointer;
     transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .connect-me-gradient:hover {
@@ -136,6 +141,10 @@
     border: 1px solid #fff;
     cursor: pointer;
     transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .resume-btn:hover {

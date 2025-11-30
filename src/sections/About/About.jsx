@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import  boy_img  from '../../assets/boy_img.png'
 
 const About = () => {
 
@@ -14,7 +15,7 @@ const About = () => {
     },
      {
       langauge: "JS",
-      efficiency : "Most Used"
+      efficiency : "Advanced"
     },
      {
       langauge: "Python",
@@ -41,7 +42,7 @@ const About = () => {
         
       <div className="upperpart">
           <div className="logo-img">
-            
+            <img src={boy_img} className='boy_img' width="300px" height="300px" alt="boy_image" />
           </div>
           <div className="right-part">
             <h4>Codewithpabitra</h4>
@@ -55,17 +56,17 @@ const About = () => {
         </div>
       </div>
 
-      {/* <div className="introduction-after">
-        <h4>Languages I Know</h4>
+      <div className="introduction-after">
+        <h4 className='heading'>Languages I Know</h4>
         <div className="langauges">
           {languages.map((item, index) => (
-              <div className='individual-item'>
-                <p>{item.langauge}</p>
-                <p>{item.efficiency}</p>
+              <div className={`individual-item ${item.efficiency == 'Advanced' ? 'green-border':''} ${item.efficiency == 'Intermediate' ? 'yellow-border' : ''} ${item.efficiency == 'Beginner'? 'red-border' : ''} `}>
+                <p className='item-title'>{item.langauge}</p>
+                <p className={`efficiency-para ${item.efficiency == 'Advanced' ? 'green-color' : ''} ${item.efficiency == 'Intermediate' ? 'yellow-color' : ''}  ${item.efficiency == 'Beginner' ? 'red-color' : ''}`}>{item.efficiency}</p>
               </div>
           ))}
         </div>
-      </div> */}
+      </div>
     </div>
   )
 }
