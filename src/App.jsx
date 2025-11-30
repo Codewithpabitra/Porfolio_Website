@@ -14,9 +14,11 @@ const App = () => {
       <Project />
       <Contact />
       <div className='flex gap-10 text-center items-center justify-center mb-10'>
-        <a href="https://github.com/Codewithpabitra/" className='text-gray-500'>Github.</a>
-        <a href="https://x.com/CodeX_Pabitra" className='text-gray-500'>X.com</a>
-        <a href="instagram.com" className='text-gray-500'>Instagram.</a>
+        <a href="#" className='text-gray-500'>itz.Me | made with 💗</a>
+        <a href="https://github.com/Codewithpabitra/" target='_blank' className='text-gray-500'>Github.</a>
+        <a href="https://x.com/CodeX_Pabitra" target='_blank' className='text-gray-500'>X.com</a>
+        <a href="instagram.com" target='_blank' className='text-gray-500'>Instagram.</a>
+        <a href="#" className='text-gray-500'>all rights reserved | 2025.</a>
       </div>
     </div>
   )

@@ -36,7 +36,7 @@ const About = () => {
 
 
   return (
-    <div className='about-page'>
+    <div className='about-page' id='about'>
 
         <h3>About Me<div className="underline"></div></h3>
         

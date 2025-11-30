@@ -1,0 +1,78 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1032 >>
+stream
+BT
+/F1 18 Tf
+1 0 0 1 50 760 Tm
+(Pabitra Maity) Tj
+1 0 0 1 50 742 Tm
+(College Student) Tj
+1 0 0 1 50 724 Tm
+(CGPA: 9.44) Tj
+1 0 0 1 50 706 Tm
+() Tj
+1 0 0 1 50 688 Tm
+(Technical Stack: MERN, Framer Motion, three.js, GSAP) Tj
+1 0 0 1 50 670 Tm
+() Tj
+1 0 0 1 50 652 Tm
+(Experience / Projects \(sample\):) Tj
+1 0 0 1 50 634 Tm
+(- Portfolio Website \(React, three.js\)) Tj
+1 0 0 1 50 616 Tm
+(- Collaborative Editor \(MERN, WebSockets\)) Tj
+1 0 0 1 50 598 Tm
+(- Animated UI Library \(Framer Motion, GSAP\)) Tj
+1 0 0 1 50 580 Tm
+() Tj
+1 0 0 1 50 562 Tm
+(Skills: JavaScript, React, Node.js, Express, MongoDB, CSS, WebGL) Tj
+1 0 0 1 50 544 Tm
+(Tools: Git, Vite, Webpack, npm, Chrome DevTools) Tj
+1 0 0 1 50 526 Tm
+() Tj
+1 0 0 1 50 508 Tm
+(Education:) Tj
+1 0 0 1 50 490 Tm
+(B.Sc / B. Tech in Computer Science \(Expected\)) Tj
+1 0 0 1 50 472 Tm
+() Tj
+1 0 0 1 50 454 Tm
+(Contact:) Tj
+1 0 0 1 50 436 Tm
+(Email: pabitra@example.com  |  Phone: +91 98765 43210) Tj
+1 0 0 1 50 418 Tm
+() Tj
+1 0 0 1 50 400 Tm
+(Generated on: 2025-11-30 18:54:29) Tj
+ET
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000000317 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1401
+%%EOF

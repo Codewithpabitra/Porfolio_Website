@@ -34,6 +34,7 @@ const Project = () => {
     <div
       ref={ref}
       className="w-full h-screen bg-zinc-800 relative border-2  border-blue-500 rounded-xl flex gap-10 flex-wrap "
+      id="project"
     >
       <Background />
       {data.map((item, index) => (

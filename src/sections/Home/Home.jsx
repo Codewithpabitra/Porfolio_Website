@@ -1,12 +1,14 @@
 import React from 'react'
 import './Home.css'
 import { IoIosArrowRoundForward } from "react-icons/io";
-import  boy_img  from '../../assets/boy_img.png'
+import  boy_img from '../../assets/boy_img.png'
+import resume from '../../assets/resume.pdf'
 import { MdOutlineFileDownload } from "react-icons/md";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Home = () => {
   return (
-    <div className='home-conatiner'>
+    <div className='home-conatiner' id='home'>
 
       {/* navbar  */}
       <nav className='navbar'>
@@ -15,13 +17,13 @@ const Home = () => {
         </div>
         <div className="middle-menu">
             <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Experience</li>
-              <li>Contact</li>
+              <AnchorLink href='#home'><li>Home</li></AnchorLink>
+              <AnchorLink href='#about'><li>About</li></AnchorLink>
+              <AnchorLink href='#project'><li>Projects</li></AnchorLink>
+              <AnchorLink href='#contact'><li>Contact</li></AnchorLink>
             </ul>
         </div>
-        <button className='connect-btn'>Connect With Me</button>
+        <AnchorLink href='#contact'><button className='connect-btn'>Connect With Me</button></AnchorLink>
       </nav>
 
 
@@ -36,8 +38,8 @@ const Home = () => {
 
         </div>
         <div className="explore-btns">
-          <button className='connect-me-gradient'>connect with me <IoIosArrowRoundForward/></button>
-          <button className='resume-btn'>my resume <MdOutlineFileDownload /></button>
+          <AnchorLink href='#contact'><button className='connect-me-gradient'>connect with me <IoIosArrowRoundForward/></button></AnchorLink>
+          <a href={resume} download ><button className='resume-btn'>my resume <MdOutlineFileDownload /></button></a>
         </div>
       </div>
 

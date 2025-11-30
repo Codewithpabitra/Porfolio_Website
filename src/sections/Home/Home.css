@@ -26,6 +26,10 @@
 
 }
 
+.middle-menu ul li:active {
+    color: teal;
+}
+
 .middle-menu ul li:hover {
     color: rgb(8, 209, 209);
 }
@@ -39,6 +43,7 @@
     -webkit-text-fill-color: transparent;
     color: rgb(8, 209, 209);
     cursor: pointer;
+    font-weight: 500;
 }
 
 .connect-btn {
@@ -97,6 +102,7 @@
     -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-style: italic;
+    font-size: 20px;
 }
 
 .introduction p {
