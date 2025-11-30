@@ -1,3 +1,8 @@
+# Project details - 
+##     Description - this is a simple Portfolio website . 
+##     tech Stacks - ReactJS , Framer-Motion , Web3 Form / WEb3 Email service , tailwindCSS (little) , vanilllaCSS (most), Javascript.
+##     Live Link - 
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
