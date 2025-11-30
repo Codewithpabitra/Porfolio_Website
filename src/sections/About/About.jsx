@@ -49,7 +49,7 @@ const About = () => {
             <p>A passionate software engineer | 1.5+ years in Coding</p>
             <div className="skills-langauges">
               {techStacks.map((item,index) => (
-                <div className='skill' key={index}>{item}</div>
+                <div className='skill' key={index} >{item}</div>
               ))}
             </div>
 
@@ -60,7 +60,7 @@ const About = () => {
         <h4 className='heading'>Languages I Know</h4>
         <div className="langauges">
           {languages.map((item, index) => (
-              <div className={`individual-item ${item.efficiency == 'Advanced' ? 'green-border':''} ${item.efficiency == 'Intermediate' ? 'yellow-border' : ''} ${item.efficiency == 'Beginner'? 'red-border' : ''} `}>
+              <div key={index} className={`individual-item ${item.efficiency == 'Advanced' ? 'green-border':''} ${item.efficiency == 'Intermediate' ? 'yellow-border' : ''} ${item.efficiency == 'Beginner'? 'red-border' : ''} `}>
                 <p className='item-title'>{item.langauge}</p>
                 <p className={`efficiency-para ${item.efficiency == 'Advanced' ? 'green-color' : ''} ${item.efficiency == 'Intermediate' ? 'yellow-color' : ''}  ${item.efficiency == 'Beginner' ? 'red-color' : ''}`}>{item.efficiency}</p>
               </div>

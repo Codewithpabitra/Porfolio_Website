@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&family=Lato:wght@300;400&display=swap');
+@import "tailwindcss";
+
 
 * {
   margin: 0;
@@ -29,6 +31,7 @@ body, html {
 .app-container {
   background-color: #111;
   color: #fff;
+  padding: 10px 30px;
   
   
 }

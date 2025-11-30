@@ -1,4 +1,7 @@
+import { form } from 'framer-motion/client';
 import { useState } from 'react';
+import './ContactForm.css'
+
 
 export default function ContactForm() {
   const [result, setResult] = useState("");
@@ -6,7 +9,7 @@ export default function ContactForm() {
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    formData.append("access_key", "032c8900-bb14-45a6-94fd-bd292e41d9c3");
+    formData.append("access_key", process.env.ACCESS_KEY);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -14,15 +17,15 @@ export default function ContactForm() {
     });
 
     const data = await response.json();
-    setResult(data.success ? "Success!" : "Error");
+    setResult(data.success ? "Submitted sucessfully" : "Something Error");
   };
 
   return (
     <form onSubmit={onSubmit}>
-      <input type="text" name="name" required/>
-      <input type="email" name="email" required/>
-      <textarea name="message" required></textarea>
-      <button type="submit">Submit</button>
+      <input type="text" placeholder='Enter your name' required />
+      <input type="email" placeholder='Enter your email' required />
+       <textarea name="message" required placeholder='Type your message...'></textarea>
+       <button type="submit">Submit</button>
       <p>{result}</p>
     </form>
   );

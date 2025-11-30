@@ -1,11 +1,12 @@
 .about-page {
     width: 100%;
-    max-height: 100vh;
+    min-height: 100vh;
     height: auto;
     padding: 30px 0;
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin-bottom: 80px;
 
 }
 
