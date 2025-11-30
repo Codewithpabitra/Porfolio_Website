@@ -1,6 +1,6 @@
 # Project details - 
 ##     Description - this is a simple Portfolio website . 
-##     tech Stacks - ReactJS , Framer-Motion , Web3 Form / WEb3 Email service , tailwindCSS (little) , vanilllaCSS (most), Javascript.
+##     tech Stacks - ReactJS , Framer-Motion , Web3 Form / Web3 Email service , tailwindCSS (little) , vanilllaCSS (most), Javascript.
 ##     Live Link - https://porfolio-website-wine.vercel.app/ 
 
 # React + Vite
